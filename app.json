@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Zodiacs 2026",
+    "slug": "zodiacs2026",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/zodiac-icon.png",
+    "scheme": "zodiacs2026",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "icon": "./assets/images/zodiac-icon.png",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash.jpg",
+          "imageWidth": "100%",
+          "imageHeight": "100%",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
