@@ -2,4 +2,4 @@
 
 The project looks like:
 
-<img src="./zodiacs.gif" alt="zodiacs" width="400" height = "800" />
+<img src="./zodiacs.gif" alt="zodiacs" width="200" height = "400" />
